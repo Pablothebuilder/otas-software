@@ -14,9 +14,6 @@ jobs:
   build-and-test:
     name: Lint, Build, and Test
     runs-on: ubuntu-22.04
-    defaults:
-      run:
-        shell: bash
     container:
       image: ghcr.io/pablothebuilder/dev-environment:latest
       credentials:
@@ -28,6 +25,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Linting (flake8 & cpplint)
+        shell: bash
         run: |
           echo "=== Running Python Linters (flake8) ==="
           if [ -d "nodes" ] || [ -d "tests" ]; then
@@ -44,8 +42,9 @@ jobs:
           fi
 
       - name: Build ROS 2 Workspace
+        shell: bash
         run: |
-          source /opt/ros/humble/setup.bash
+          . /opt/ros/humble/setup.bash
           if [ -d "src" ]; then
             colcon build --symlink-install
           else
@@ -53,8 +52,9 @@ jobs:
           fi
 
       - name: Run Simulation Failsafe & Telemetry Tests (T1-T6)
+        shell: bash
         run: |
-          source /opt/ros/humble/setup.bash
+          . /opt/ros/humble/setup.bash
           mkdir -p test-results
           if [ -d "tests" ]; then
             pytest tests/ --junitxml=test-results/pytest-report.xml
