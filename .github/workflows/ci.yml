@@ -1,0 +1,64 @@
+name: OTAS CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: Lint, Build, and Test
+    runs-on: ubuntu-22.04
+    container:
+      image: ghcr.io/pablothebuilder/dev-environment:latest
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Linting (flake8 & cpplint)
+        run: |
+          echo "=== Running Python Linters (flake8) ==="
+          if [ -d "nodes" ] || [ -d "tests" ]; then
+            flake8 nodes/ tests/ --count --show-source --statistics
+          else
+            echo "No nodes/ or tests/ directory yet. Skipping flake8."
+          fi
+
+          echo "=== Running C++ Linters (cpplint) ==="
+          if [ -d "sim" ] || [ -d "src" ]; then
+            cpplint --recursive sim/ src/
+          else
+            echo "No sim/ or src/ directory yet. Skipping cpplint."
+          fi
+
+      - name: Build ROS 2 Workspace
+        run: |
+          source /opt/ros/humble/setup.bash
+          if [ -d "src" ]; then
+            colcon build --symlink-install
+          else
+            echo "No 'src/' directory found yet. Skipping colcon build."
+          fi
+
+      - name: Run Simulation Failsafe & Telemetry Tests (T1-T6)
+        run: |
+          source /opt/ros/humble/setup.bash
+          mkdir -p test-results
+          if [ -d "tests" ]; then
+            pytest tests/ --junitxml=test-results/pytest-report.xml
+          else
+            echo "No 'tests/' directory found yet. Skipping pytest."
+          fi
+
+      - name: Archive Test Artifacts & Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci-test-logs-and-reports
+          path: |
+            test-results/
+            log/
+            build/
+          retention-days: 14
