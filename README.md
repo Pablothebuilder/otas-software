@@ -1,2 +1,1 @@
-# otas-software
-drones, yay!!!!!!!!!!!
+# OTAS Drone Mission
