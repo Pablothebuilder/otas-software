@@ -1,0 +1,33 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# ROS 2 Build output directories
+build/
+install/
+log/
+
+# C / C++ Compiled Binaries
+*.o
+*.so
+*.a
+*.out
+
+# ArduPilot & SITL runtime logs / temporary files
+*.bin
+*.log
+mav.parm
+eeprom.bin
+logs/
+terrain/
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.tmp
