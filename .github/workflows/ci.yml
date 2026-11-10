@@ -6,22 +6,30 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: read
+  packages: read
+
 jobs:
   build-and-test:
     name: Lint, Build, and Test
     runs-on: ubuntu-22.04
     container:
       image: ghcr.io/pablothebuilder/dev-environment:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout Repository Code
         uses: actions/checkout@v4
 
       - name: Linting (flake8 & cpplint)
+        shell: bash
         run: |
           echo "=== Running Python Linters (flake8) ==="
           if [ -d "nodes" ] || [ -d "tests" ]; then
-            flake8 nodes/ tests/ --count --show-source --statistics
+            flake8 nodes/ src/ tests/ --count --show-source --statistics
           else
             echo "No nodes/ or tests/ directory yet. Skipping flake8."
           fi
@@ -34,8 +42,11 @@ jobs:
           fi
 
       - name: Build ROS 2 Workspace
+        shell: bash
         run: |
-          source /opt/ros/humble/setup.bash
+          . /opt/ros/humble/setup.bash
+          apt-get update
+          apt-get install -y --no-install-recommends ros-humble-mavros-msgs
           if [ -d "src" ]; then
             colcon build --symlink-install
           else
@@ -43,9 +54,13 @@ jobs:
           fi
 
       - name: Run Simulation Failsafe & Telemetry Tests (T1-T6)
+        shell: bash
         run: |
-          source /opt/ros/humble/setup.bash
+          . /opt/ros/humble/setup.bash
           mkdir -p test-results
+          if [ -f "install/setup.bash" ]; then
+            . install/setup.bash
+          fi
           if [ -d "tests" ]; then
             pytest tests/ --junitxml=test-results/pytest-report.xml
           else

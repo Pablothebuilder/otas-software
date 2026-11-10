@@ -31,6 +31,7 @@ RUN wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pk
 RUN apt-get update && apt-get install -y \
     ros-humble-ros-base \
     ros-humble-ros-gzharmonic \
+    ros-humble-mavros-msgs \
     gz-harmonic \
     python3-colcon-common-extensions \
     && rm -rf /var/lib/apt/lists/*
