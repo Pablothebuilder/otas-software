@@ -1,14 +1,5 @@
 # OTAS Development Environment Setup
 
-## Quick Start
-Run this command in your terminal to launch the environment:
-
-```bash
-docker compose run --rm dev-environment
-```
-
----
-
 ## Prerequisites
 
 ### Windows (WSL 2)
@@ -33,6 +24,16 @@ docker compose run --rm dev-environment
    ```bash
    DISPLAY=host.docker.internal:0 docker compose run --rm dev-environment
    ```
+
+---
+
+
+## Quick Start
+Run this command in your terminal to launch the environment:
+
+```bash
+docker compose run --rm dev-environment
+```
 
 ---
 
