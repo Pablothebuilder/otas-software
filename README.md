@@ -1,33 +1,61 @@
 # OTAS Drone Mission
 
-## T1 Telemetry and Heartbeat
+OTAS is a ROS 2 and ArduPilot SITL development project for drone simulation.
+The verified simulation stack uses Gazebo, ArduPilot SITL/MAVProxy, MAVROS, and
+the OTAS telemetry publisher. See [SETUP.md](SETUP.md) for the complete
+Windows WSL 2 runbook, including container setup, simulation bring-up,
+takeoff/landing, recording, and troubleshooting.
 
-The `otas_telemetry` ROS 2 package publishes a 1 Hz heartbeat on
-`/otas/telemetry`. Each `std_msgs/msg/String` message includes a UTC timestamp,
-the latest MAVROS flight mode and arming state, and health status. Health is
-`OK` only while the latest `/mavros/state` reports a connected vehicle.
+## T1 telemetry and heartbeat
 
-Build and run inside the development container:
+The `otas_telemetry` ROS 2 package publishes a 1 Hz
+`std_msgs/msg/String` heartbeat on `/otas/telemetry`, containing a UTC
+timestamp, flight mode, armed state, and health status. Health is
+`OTAS_HEARTBEAT: OK` only while the latest MAVROS state reports a connected
+vehicle; otherwise the node reports `WAITING_FOR_MAVROS` or `DISCONNECTED`.
+
+In the verified setup, MAVROS publishes state on `/state`, while the telemetry
+node subscribes to `/mavros/state`. Remap the subscription when launching the
+publisher:
 
 ```bash
+ros2 run otas_telemetry telemetry_publisher --ros-args -r /mavros/state:=/state
+```
+
+Expected output while connected resembles:
+
+```text
+OTAS_HEARTBEAT: OK | timestamp=2026-01-01T12:00:00.000Z | flight_mode=GUIDED | armed=true
+```
+
+For the SITL takeoff/landing test, issue these commands one at a time at the
+MAVProxy `STABILIZE>` prompt:
+
+```text
+mode guided
+arm throttle
+takeoff 5
+```
+
+After confirming the climb and telemetry (`flight_mode=GUIDED`,
+`armed=true`), land with:
+
+```text
+mode land
+```
+
+This is a simulation test, not a real-flight procedure. Start a continuous
+`ros2 topic echo /otas/telemetry` before takeoff to observe the changes. The
+runbook shows how to record the stream to a file.
+
+## Integration tests
+
+Inside the container, from `/workspace`, after sourcing ROS and the built
+workspace:
+
+```bash
+cd /workspace
 source /opt/ros/humble/setup.bash
-colcon build --symlink-install
 source install/setup.bash
-ros2 run otas_telemetry telemetry_publisher
-```
-
-In another container terminal, inspect the output:
-
-```bash
-ros2 topic echo /otas/telemetry
-```
-
-The MAVROS bridge must publish `/mavros/state` for the heartbeat to report
-`OTAS_HEARTBEAT: OK`; until then it reports `WAITING_FOR_MAVROS`.
-
-Run the ROS integration test from the workspace root after sourcing ROS and
-the workspace:
-
-```bash
 pytest tests/
 ```
