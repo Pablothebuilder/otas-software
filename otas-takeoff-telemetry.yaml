@@ -1,0 +1,312 @@
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:03.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:04.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:05.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:06.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:07.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:08.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:09.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:10.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:11.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:12.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:13.616Z | flight_mode=STABILIZE | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:14.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:15.621Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:16.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:17.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:18.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:19.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:20.616Z | flight_mode=GUIDED | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:21.626Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:22.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:23.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:24.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:25.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:26.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:27.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:28.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:29.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:30.620Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:31.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:32.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:33.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:34.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:35.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:36.620Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:37.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:38.617Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:39.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:40.620Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:41.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:42.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:43.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:44.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:45.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:46.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:47.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:48.619Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:49.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:50.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:51.617Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:52.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:53.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:54.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:55.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:56.617Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:57.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:58.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:55:59.618Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:00.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:01.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:02.616Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:03.620Z | flight_mode=GUIDED | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:04.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:05.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:06.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:07.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:08.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:09.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:10.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:11.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:12.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:13.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:14.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:15.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:16.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:17.620Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:18.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:19.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:20.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:21.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:22.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:23.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:24.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:25.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:26.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:27.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:28.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:29.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:30.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:31.620Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:32.617Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:33.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:34.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:35.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:36.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:37.617Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:38.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:39.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:40.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:41.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:42.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:43.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:44.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:45.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:46.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:47.622Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:48.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:49.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:50.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:51.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:52.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:53.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:54.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:55.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:56.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:57.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:58.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:56:59.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:00.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:01.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:02.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:03.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:04.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:05.620Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:06.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:07.620Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:08.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:09.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:10.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:11.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:12.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:13.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:14.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:15.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:16.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:17.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:18.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:19.620Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:20.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:21.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:22.618Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:23.627Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:24.616Z | flight_mode=LAND | armed=true'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:25.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:26.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:27.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:28.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:29.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:30.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:31.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:32.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:33.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:34.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:35.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:36.616Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:37.620Z | flight_mode=LAND | armed=false'
+---
+data: 'OTAS_HEARTBEAT: OK | timestamp=2026-11-25T17:57:38.616Z | flight_mode=LAND | armed=false'
+---
